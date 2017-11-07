@@ -5,7 +5,7 @@
         <DisplayName>VisualHg (Funbit fork)</DisplayName>
         <Description xml:space="preserve">Provides integration with Mercurial and TortoiseHg.</Description>
         <License>LICENSE.txt</License>
-        <Icon>Icon.png</Icon>
+        <Icon>Icon.jpg</Icon>
         <PreviewImage>Preview.png</PreviewImage>
         <Tags>VisualHg;hg;source control;mercurial;tortoise</Tags>
     </Metadata>

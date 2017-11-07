@@ -28,9 +28,13 @@ namespace VisualHg
             AutoAddNewFiles = true;
             AutoSaveProjectFiles = true;
             ProjectStatusIncludesChildren = true;
+
+            // default diff tool settings
+            DiffToolPath = @"""C:\Program Files(x86)\Beyond Compare 4\BComp.exe""";
+            DiffToolArguments = @"%PathA% %PathB% /lefttitle=""%NameA%"" /righttitle=""%NameB%""";
         }
 
-        
+
         private static VisualHgOptions _global;
 
         public static VisualHgOptions Global
